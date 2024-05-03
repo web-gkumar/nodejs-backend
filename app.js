@@ -8,7 +8,7 @@ const appRouter = require("./routers/app-router");
 //Router middleware
 app.use("api/listing", appRouter);
 //MongoDb Database Connection
-const dbConnec = require("./db/dbconnection");
+ const dbConnec = require("./db/dbconnection");
 
 
 
